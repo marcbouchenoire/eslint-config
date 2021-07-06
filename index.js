@@ -1,5 +1,4 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
   env: {
     browser: true,
     jest: true,
@@ -8,34 +7,44 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:typescript-sort-keys/recommended",
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:prettier/recommended",
     "plugin:unicorn/recommended",
     "prettier"
   ],
-  plugins: ["@typescript-eslint", "import", "unicorn", "prettier"],
+  parser: "@typescript-eslint/parser",
+  plugins: [
+    "@typescript-eslint",
+    "typescript-sort-keys",
+    "sort-keys-fix",
+    "import",
+    "unicorn",
+    "prettier"
+  ],
   rules: {
-    "prefer-rest-params": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-explicit-any": "off",
-    "unicorn/no-null": "off",
-    "unicorn/no-useless-undefined": "off",
-    "unicorn/prevent-abbreviations": "off",
     "import/newline-after-import": "error",
     "import/no-absolute-path": "error",
     "import/order": [
       "warning",
       {
         alphabetize: {
-          order: "asc",
-          caseInsensitive: true
+          caseInsensitive: true,
+          order: "asc"
         },
         "newlines-between": "never"
       }
-    ]
+    ],
+    "prefer-rest-params": "off",
+    "sort-keys-fix/sort-keys-fix": "warn",
+    "unicorn/no-null": "off",
+    "unicorn/no-useless-undefined": "off",
+    "unicorn/prevent-abbreviations": "off"
   },
   settings: {
     "import/resolver": {
