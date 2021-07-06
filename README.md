@@ -2,7 +2,7 @@
 
 ☂️ My personal ESLint configurations.
 
-[![npm](https://img.shields.io/npm/v/@bouchenoiremarc/eslint-config?color=%2385f)](https://www.npmjs.com/package/@bouchenoiremarc/eslint-config) [![license](https://img.shields.io/github/license/bouchenoiremarc/@bouchenoiremarc/eslint-config?color=%23d5e)](https://github.com/bouchenoiremarc/@bouchenoiremarc/eslint-config/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@bouchenoiremarc/eslint-config?color=%2385f)](https://www.npmjs.com/package/@bouchenoiremarc/eslint-config) [![license](https://img.shields.io/github/license/bouchenoiremarc/eslint-config?color=%23d5e)](https://github.com/bouchenoiremarc/@bouchenoiremarc/eslint-config/blob/main/LICENSE)
 
 ## Installation
 
