@@ -31,7 +31,7 @@ module.exports = {
     "import/newline-after-import": "error",
     "import/no-absolute-path": "error",
     "import/order": [
-      "warning",
+      "warn",
       {
         alphabetize: {
           caseInsensitive: true,
