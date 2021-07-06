@@ -14,10 +14,6 @@
     "react.js"
   ],
   "main": "index.js",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
   "scripts": {
     "clean": "rimraf node_modules",
     "release": "yarn login && np --no-tests"
