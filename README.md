@@ -2,7 +2,7 @@
 
 ☂️ My personal ESLint configurations.
 
-[![npm](https://img.shields.io/npm/v/@bouchenoiremarc/eslint-config?color=%2385f)](https://www.npmjs.com/package/@bouchenoiremarc/eslint-config) [![license](https://img.shields.io/github/license/bouchenoiremarc/eslint-config?color=%23d5e)](https://github.com/bouchenoiremarc/@bouchenoiremarc/eslint-config/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@bouchenoiremarc/eslint-config?color=%230cf)](https://www.npmjs.com/package/@bouchenoiremarc/eslint-config) [![license](https://img.shields.io/github/license/bouchenoiremarc/eslint-config?color=%2385f)](https://github.com/bouchenoiremarc/@bouchenoiremarc/eslint-config/blob/main/LICENSE)
 
 ## Installation
 
@@ -26,6 +26,7 @@ When extending multiple configurations, keep the base configuration first.
 {
   "extends": [
     "@bouchenoiremarc/eslint-config",
+    "@bouchenoiremarc/eslint-config/jest",
     "@bouchenoiremarc/eslint-config/react"
   ]
 }
@@ -34,4 +35,5 @@ When extending multiple configurations, keep the base configuration first.
 ## Configurations
 
 - [`@bouchenoiremarc/eslint-config`](index.js)
+- [`@bouchenoiremarc/eslint-config/jest`](jest.js)
 - [`@bouchenoiremarc/eslint-config/react`](react.js)
