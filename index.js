@@ -20,6 +20,7 @@ module.exports = {
     "sort-keys-fix",
     "import",
     "unicorn",
+    "unused-imports",
     "prettier"
   ],
   rules: {
@@ -44,7 +45,8 @@ module.exports = {
     "unicorn/filename-case": "off",
     "unicorn/no-null": "off",
     "unicorn/no-useless-undefined": "off",
-    "unicorn/prevent-abbreviations": "off"
+    "unicorn/prevent-abbreviations": "off",
+    "unused-imports/no-unused-imports": "warn"
   },
   settings: {
     "import/resolver": {
