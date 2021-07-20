@@ -24,12 +24,19 @@ module.exports = {
     "prettier"
   ],
   rules: {
+    "@typescript-eslint/consistent-type-definitions": ["warn", "interface"],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-explicit-any": "off",
-    "import/newline-after-import": "error",
-    "import/no-absolute-path": "error",
+    "@typescript-eslint/no-unnecessary-type-arguments": "warn",
+    "@typescript-eslint/no-unnecessary-type-constraint": "warn",
+    "@typescript-eslint/prefer-nullish-coalescing": "warn",
+    "@typescript-eslint/prefer-optional-chain": "warn",
+    "@typescript-eslint/sort-type-union-intersection-members": "warn",
+    "@typescript-eslint/unified-signatures": "warn",
+    "import/newline-after-import": "warn",
+    "import/no-absolute-path": "warn",
     "import/order": [
       "warn",
       {
@@ -40,6 +47,7 @@ module.exports = {
         "newlines-between": "never"
       }
     ],
+    "no-magic-numbers": "error",
     "prefer-rest-params": "off",
     "sort-keys-fix/sort-keys-fix": "warn",
     "unicorn/filename-case": "off",
