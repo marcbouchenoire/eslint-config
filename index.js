@@ -50,7 +50,6 @@ module.exports = {
         "newlines-between": "never"
       }
     ],
-    "no-magic-numbers": "error",
     "prefer-rest-params": "off",
     "sort-keys-fix/sort-keys-fix": "warn",
     "unicorn/filename-case": "off",
