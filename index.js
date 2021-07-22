@@ -55,6 +55,7 @@ module.exports = {
     "unicorn/filename-case": "off",
     "unicorn/no-null": "off",
     "unicorn/no-useless-undefined": "off",
+    "unicorn/prefer-node-protocol": "off",
     "unicorn/prevent-abbreviations": "off",
     "unused-imports/no-unused-imports": "warn"
   },
