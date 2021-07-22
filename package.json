@@ -1,6 +1,6 @@
 {
   "name": "@bouchenoiremarc/eslint-config",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "My personal ESLint configurations.",
   "author": "Marc Bouchenoire",
   "license": "MIT",
