@@ -26,7 +26,6 @@ When extending multiple configurations, keep the base configuration first.
 {
   "extends": [
     "@bouchenoiremarc/eslint-config",
-    "@bouchenoiremarc/eslint-config/jest",
     "@bouchenoiremarc/eslint-config/react"
   ]
 }
@@ -36,4 +35,5 @@ When extending multiple configurations, keep the base configuration first.
 
 - [`@bouchenoiremarc/eslint-config`](index.js)
 - [`@bouchenoiremarc/eslint-config/jest`](jest.js)
+- [`@bouchenoiremarc/eslint-config/next`](next.js)
 - [`@bouchenoiremarc/eslint-config/react`](react.js)
