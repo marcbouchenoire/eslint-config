@@ -12,6 +12,7 @@
   "files": [
     "index.js",
     "jest.js",
+    "next.js",
     "react.js"
   ],
   "main": "index.js",
