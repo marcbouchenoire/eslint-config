@@ -53,6 +53,7 @@ module.exports = {
     "prefer-rest-params": "off",
     "sort-keys-fix/sort-keys-fix": "warn",
     "unicorn/filename-case": "off",
+    "unicorn/no-array-callback-reference": "off",
     "unicorn/no-null": "off",
     "unicorn/no-useless-undefined": "off",
     "unicorn/numeric-separators-style": "off",
