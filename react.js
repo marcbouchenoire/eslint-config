@@ -7,6 +7,7 @@ module.exports = {
     "react/jsx-pascal-case": "error",
     "react/jsx-sort-props": "warn",
     "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
     "react/style-prop-object": "error"
   },
   settings: {
