@@ -15,7 +15,7 @@ yarn add -D eslint @bouchenoiremarc/eslint-config
 #### npm
 
 ```sh
-npm install --save-dev @bouchenoiremarc/itunes-search-api
+npm install --save-dev eslint @bouchenoiremarc/eslint-config
 ```
 
 ## Usage
