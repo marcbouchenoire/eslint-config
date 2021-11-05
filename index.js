@@ -7,7 +7,6 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:typescript-sort-keys/recommended",
-    "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:prettier/recommended",
     "plugin:unicorn/recommended",
@@ -27,6 +26,7 @@ module.exports = {
     "prettier"
   ],
   rules: {
+    "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/consistent-type-definitions": ["warn", "interface"],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -34,12 +34,17 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unnecessary-type-arguments": "warn",
     "@typescript-eslint/no-unnecessary-type-constraint": "warn",
+    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/prefer-nullish-coalescing": "warn",
     "@typescript-eslint/prefer-optional-chain": "warn",
     "@typescript-eslint/sort-type-union-intersection-members": "warn",
     "@typescript-eslint/unified-signatures": "warn",
+    "import/export": "error",
     "import/newline-after-import": "warn",
     "import/no-absolute-path": "warn",
+    "import/no-duplicates": "warn",
+    "import/no-named-as-default": "warn",
+    "import/no-named-as-default-member": "warn",
     "import/order": [
       "warn",
       {
@@ -51,8 +56,10 @@ module.exports = {
       }
     ],
     "prefer-rest-params": "off",
+    "sort-imports": ["error", { ignoreDeclarationSort: true }],
     "sort-keys-fix/sort-keys-fix": "warn",
     "unicorn/filename-case": "off",
+    "unicorn/import-style": "off",
     "unicorn/no-array-callback-reference": "off",
     "unicorn/no-null": "off",
     "unicorn/no-useless-undefined": "off",
