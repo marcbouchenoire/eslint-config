@@ -14,7 +14,8 @@ module.exports = {
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
-    project: "tsconfig.json"
+    ecmaVersion: "latest",
+    project: ["./tsconfig.json", "./packages/**/tsconfig.json"]
   },
   plugins: [
     "@typescript-eslint",
@@ -70,11 +71,8 @@ module.exports = {
   },
   settings: {
     "import/resolver": {
-      node: {
-        extensions: [".js", ".jsx", ".ts", ",tsx"]
-      },
       typescript: {
-        project: "tsconfig.json"
+        project: ["./tsconfig.json", "./packages/**/tsconfig.json"]
       }
     }
   }
