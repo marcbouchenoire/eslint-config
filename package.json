@@ -17,7 +17,7 @@
   ],
   "main": "index.js",
   "lint-staged": {
-    "**/*.{ts,tsx}": [
+    "**/*.js": [
       "eslint --fix",
       "prettier --write"
     ]
