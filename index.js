@@ -60,6 +60,7 @@ module.exports = {
     "unicorn/filename-case": "off",
     "unicorn/import-style": "off",
     "unicorn/no-array-callback-reference": "off",
+    "unicorn/no-empty-file": "off",
     "unicorn/no-null": "off",
     "unicorn/no-useless-undefined": "off",
     "unicorn/numeric-separators-style": "off",
