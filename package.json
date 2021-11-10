@@ -33,30 +33,30 @@
     "release": "yarn login && np --no-tests"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^11.1.0",
-    "@typescript-eslint/eslint-plugin": "^4.28.2",
-    "@typescript-eslint/parser": "^4.28.2",
+    "@next/eslint-plugin-next": "^12.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-import-resolver-typescript": "^2.4.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^25.2.2",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-typescript-sort-keys": "^2.0.0",
-    "eslint-plugin-unicorn": "^37.0.1",
-    "eslint-plugin-unused-imports": "^1.1.2",
-    "husky": "4.3.8"
+    "eslint-plugin-unicorn": "^38.0.1",
+    "eslint-plugin-unused-imports": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.30.0",
-    "lint-staged": "^11.0.0",
+    "eslint": "^8.2.0",
+    "husky": "4.3.8",
+    "lint-staged": "^11.2.6",
     "np": "^7.5.0",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.1",
     "rimraf": "^3.0.2"
   },
   "peerDependencies": {
-    "eslint": ">=7.0.0"
+    "eslint": ">=8.0.0"
   }
 }
