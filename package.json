@@ -12,7 +12,6 @@
   "files": [
     "index.js",
     "jest.js",
-    "next.js",
     "react.js"
   ],
   "main": "index.js",
@@ -34,7 +33,6 @@
     "release": "yarn login && np --no-tests"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^12.0.3",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
     "eslint-config-prettier": "^8.3.0",
