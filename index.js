@@ -20,7 +20,6 @@ module.exports = {
   plugins: [
     "@typescript-eslint",
     "typescript-sort-keys",
-    "sort-keys-fix",
     "import",
     "unicorn",
     "unused-imports",
@@ -58,7 +57,6 @@ module.exports = {
     ],
     "prefer-rest-params": "off",
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
-    "sort-keys-fix/sort-keys-fix": "warn",
     "unicorn/filename-case": "off",
     "unicorn/import-style": "off",
     "unicorn/no-array-callback-reference": "off",
