@@ -8,13 +8,13 @@
 
 #### Yarn
 
-```sh
+```bash
 yarn add -D eslint @bouchenoiremarc/eslint-config
 ```
 
 #### npm
 
-```sh
+```bash
 npm install --save-dev eslint @bouchenoiremarc/eslint-config
 ```
 
