@@ -52,7 +52,35 @@ module.exports = {
         "@typescript-eslint/prefer-nullish-coalescing": "warn",
         "@typescript-eslint/prefer-optional-chain": "warn",
         "@typescript-eslint/sort-type-union-intersection-members": "warn",
-        "@typescript-eslint/unified-signatures": "warn"
+        "@typescript-eslint/unified-signatures": "warn",
+        "import/export": "error",
+        "import/newline-after-import": "warn",
+        "import/no-absolute-path": "warn",
+        "import/no-duplicates": "warn",
+        "import/no-named-as-default": "warn",
+        "import/no-named-as-default-member": "warn",
+        "import/order": [
+          "warn",
+          {
+            alphabetize: {
+              caseInsensitive: true,
+              order: "asc"
+            },
+            "newlines-between": "never"
+          }
+        ],
+        "prefer-rest-params": "off",
+        "sort-imports": ["error", { ignoreDeclarationSort: true }],
+        "unicorn/filename-case": "off",
+        "unicorn/import-style": "off",
+        "unicorn/no-array-callback-reference": "off",
+        "unicorn/no-empty-file": "off",
+        "unicorn/no-null": "off",
+        "unicorn/no-useless-undefined": "off",
+        "unicorn/numeric-separators-style": "off",
+        "unicorn/prefer-node-protocol": "off",
+        "unicorn/prevent-abbreviations": "off",
+        "unused-imports/no-unused-imports": "warn"
       },
       settings: {
         "import/resolver": {
