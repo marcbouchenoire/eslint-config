@@ -5,40 +5,69 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:typescript-sort-keys/recommended",
-    "plugin:import/typescript",
+    "plugin:import/recommended",
     "plugin:prettier/recommended",
     "plugin:unicorn/recommended",
     "prettier"
   ],
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaVersion: "latest",
-    project: ["./tsconfig.json", "./packages/**/tsconfig.json"]
-  },
-  plugins: [
-    "@typescript-eslint",
-    "typescript-sort-keys",
-    "import",
-    "unicorn",
-    "unused-imports",
-    "prettier"
+  overrides: [
+    {
+      extends: [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:typescript-sort-keys/recommended",
+        "plugin:import/recommended",
+        "plugin:import/typescript",
+        "plugin:prettier/recommended",
+        "plugin:unicorn/recommended",
+        "prettier"
+      ],
+      files: ["*.ts", "*.tsx"],
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        ecmaVersion: "latest",
+        project: "./tsconfig.json"
+      },
+      plugins: [
+        "@typescript-eslint",
+        "typescript-sort-keys",
+        "import",
+        "unicorn",
+        "unused-imports",
+        "prettier"
+      ],
+      rules: {
+        "@typescript-eslint/ban-types": "off",
+        "@typescript-eslint/consistent-type-definitions": ["warn", "interface"],
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-unnecessary-type-arguments": "warn",
+        "@typescript-eslint/no-unnecessary-type-constraint": "warn",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          { argsIgnorePattern: "^_" }
+        ],
+        "@typescript-eslint/prefer-nullish-coalescing": "warn",
+        "@typescript-eslint/prefer-optional-chain": "warn",
+        "@typescript-eslint/sort-type-union-intersection-members": "warn",
+        "@typescript-eslint/unified-signatures": "warn"
+      },
+      settings: {
+        "import/resolver": {
+          typescript: {
+            project: "./tsconfig.json"
+          }
+        }
+      }
+    }
   ],
+  parserOptions: {
+    ecmaVersion: "latest"
+  },
+  plugins: ["import", "unicorn", "unused-imports", "prettier"],
   rules: {
-    "@typescript-eslint/ban-types": "off",
-    "@typescript-eslint/consistent-type-definitions": ["warn", "interface"],
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-unnecessary-type-arguments": "warn",
-    "@typescript-eslint/no-unnecessary-type-constraint": "warn",
-    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
-    "@typescript-eslint/prefer-nullish-coalescing": "warn",
-    "@typescript-eslint/prefer-optional-chain": "warn",
-    "@typescript-eslint/sort-type-union-intersection-members": "warn",
-    "@typescript-eslint/unified-signatures": "warn",
     "import/export": "error",
     "import/newline-after-import": "warn",
     "import/no-absolute-path": "warn",
@@ -67,12 +96,5 @@ module.exports = {
     "unicorn/prefer-node-protocol": "off",
     "unicorn/prevent-abbreviations": "off",
     "unused-imports/no-unused-imports": "warn"
-  },
-  settings: {
-    "import/resolver": {
-      typescript: {
-        project: ["./tsconfig.json", "./packages/**/tsconfig.json"]
-      }
-    }
   }
 }
