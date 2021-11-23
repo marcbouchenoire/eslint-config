@@ -19,7 +19,10 @@
   "lint-staged": {
     "**/*.js": [
       "eslint --fix",
-      "prettier --write"
+      "prettier --ignore-path .eslintignore --write"
+    ],
+    "**/*.{json,md,yml}": [
+      "prettier --ignore-path .eslintignore --write"
     ]
   },
   "husky": {
@@ -28,7 +31,9 @@
     }
   },
   "scripts": {
-    "lint": "eslint '**/*.js' --fix",
+    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "lint:eslint": "eslint '**/*.js' --fix",
+    "lint:prettier": "prettier '**/*.{js,json,md,yml}' --ignore-path .eslintignore --write --loglevel silent",
     "release": "yarn login && np --no-tests"
   },
   "dependencies": {
