@@ -1,7 +1,4 @@
 {
   "extends": ["plugin:prettier/recommended", "prettier"],
-  "plugins": ["sort-keys-fix", "prettier"],
-  "rules": {
-    "sort-keys-fix/sort-keys-fix": "warn"
-  }
+  "plugins": ["prettier"]
 }
