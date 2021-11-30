@@ -210,11 +210,6 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
 
-"@bouchenoiremarc/prettier-config@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@bouchenoiremarc/prettier-config/-/prettier-config-1.1.0.tgz#acc30113056b7bc692668258f3870d1f65ba1ce4"
-  integrity sha512-5kT/iTsrEf80Jmqr/sSWOGgkXTC/HlAYU/fIj2SN+OIA5ILJbhScs8z05zj/XcMUOJW/boa3uxWTBshlX5gF3w==
-
 "@eslint/eslintrc@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.4.tgz#dfe0ff7ba270848d10c5add0715e04964c034b31"
@@ -243,6 +238,11 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
+
+"@marcbouchenoire/prettier-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@marcbouchenoire/prettier-config/-/prettier-config-1.1.0.tgz#3662bd282a9b41567fe1c0376e74a3abcea8f08d"
+  integrity sha512-4QJKqNm3V+J6TJCnhsYXSAzLoQXhggbbv7ZBsFEu7ISJZz3VYXL1NYEXf/AMTN6IoGsYQ1FUiNzEOHZAbpxyVQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

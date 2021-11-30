@@ -1,5 +1,5 @@
 {
-  "name": "@bouchenoiremarc/eslint-config",
+  "name": "@marcbouchenoire/eslint-config",
   "version": "2.2.1",
   "description": "My personal ESLint configurations.",
   "author": "Marc Bouchenoire",
@@ -14,8 +14,11 @@
     "jest.js",
     "react.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
-  "prettier": "@bouchenoiremarc/prettier-config",
+  "prettier": "@marcbouchenoire/prettier-config",
   "lint-staged": {
     "**/*.js": [
       "eslint --fix",
@@ -51,7 +54,7 @@
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "devDependencies": {
-    "@bouchenoiremarc/prettier-config": "^1.1.0",
+    "@marcbouchenoire/prettier-config": "^1.1.0",
     "eslint": "^8.3.0",
     "husky": "4.3.8",
     "lint-staged": "^12.1.2",
