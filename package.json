@@ -4,7 +4,7 @@
   "description": "My personal ESLint configurations.",
   "author": "Marc Bouchenoire",
   "license": "MIT",
-  "repository": "https://github.com/bouchenoiremarc/eslint-config",
+  "repository": "https://github.com/marcbouchenoire/eslint-config",
   "keywords": [
     "eslint",
     "config"
