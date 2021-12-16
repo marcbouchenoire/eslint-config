@@ -43,4 +43,5 @@ When extending multiple configurations, keep the base configuration first.
 ## Configurations
 
 - [`@marcbouchenoire/eslint-config`](index.js)
+- [`@marcbouchenoire/eslint-config/jsdoc`](jsdoc.js)
 - [`@marcbouchenoire/eslint-config/react`](react.js)
