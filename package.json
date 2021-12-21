@@ -45,6 +45,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsdoc": "^37.4.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
@@ -55,7 +56,6 @@
   "devDependencies": {
     "@marcbouchenoire/prettier-config": "^1.1.0",
     "eslint": "^8.4.0",
-    "eslint-plugin-jsdoc": "^37.2.2",
     "husky": "4.3.8",
     "lint-staged": "^12.1.2",
     "np": "^7.6.0",
