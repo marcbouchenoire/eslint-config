@@ -11,6 +11,7 @@
   ],
   "files": [
     "index.js",
+    "jsdoc.js",
     "react.js"
   ],
   "publishConfig": {
@@ -54,6 +55,7 @@
   "devDependencies": {
     "@marcbouchenoire/prettier-config": "^1.1.0",
     "eslint": "^8.4.0",
+    "eslint-plugin-jsdoc": "^37.2.2",
     "husky": "4.3.8",
     "lint-staged": "^12.1.2",
     "np": "^7.6.0",
