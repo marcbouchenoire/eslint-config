@@ -17,14 +17,20 @@ module.exports = {
     "jsdoc/require-hyphen-before-param-description": "warn",
     "jsdoc/require-jsdoc": [
       "warn",
-
       {
         contexts: [
+          "TSMethodSignature",
+          "TSPropertySignature",
           "ExportNamedDeclaration[declaration.type='TSDeclareFunction']:not(ExportNamedDeclaration[declaration.type='TSDeclareFunction'] + ExportNamedDeclaration[declaration.type='TSDeclareFunction'])",
           "ExportNamedDeclaration[declaration.type='FunctionDeclaration']:not(ExportNamedDeclaration[declaration.type='TSDeclareFunction'] + ExportNamedDeclaration[declaration.type='FunctionDeclaration'])"
         ],
         require: {
-          FunctionDeclaration: false
+          ArrowFunctionExpression: false,
+          ClassDeclaration: true,
+          ClassExpression: true,
+          FunctionDeclaration: false,
+          FunctionExpression: false,
+          MethodDefinition: true
         }
       }
     ],
