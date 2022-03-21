@@ -19,7 +19,7 @@
   },
   "main": "index.js",
   "prettier": "@marcbouchenoire/prettier-config",
-  "lint-staged": {
+  "nano-staged": {
     "**/*.js": [
       "eslint --fix",
       "prettier --ignore-path .eslintignore --write"
@@ -30,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "nano-staged"
     }
   },
   "scripts": {
@@ -57,7 +57,7 @@
     "@marcbouchenoire/prettier-config": "^1.1.0",
     "eslint": "^8.11.0",
     "husky": "4.3.8",
-    "lint-staged": "^12.3.7",
+    "nano-staged": "^0.6.0",
     "np": "^7.6.1",
     "prettier": "^2.6.0"
   },
