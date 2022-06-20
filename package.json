@@ -40,26 +40,26 @@
     "release": "yarn login && np --no-tests"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.16.0",
-    "@typescript-eslint/parser": "^5.16.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsdoc": "^39.2.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "eslint-plugin-unicorn": "^42.0.0",
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "devDependencies": {
     "@marcbouchenoire/prettier-config": "^1.1.0",
-    "eslint": "^8.11.0",
+    "eslint": "^8.18.0",
     "husky": "4.3.8",
-    "nano-staged": "^0.6.0",
+    "nano-staged": "^0.8.0",
     "np": "^7.6.1",
-    "prettier": "^2.6.0"
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
