@@ -39,6 +39,7 @@ module.exports = {
       rules: {
         "@typescript-eslint/ban-types": "off",
         "@typescript-eslint/consistent-type-definitions": ["warn", "interface"],
+        "@typescript-eslint/consistent-type-imports": "warn",
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/no-empty-function": "off",
