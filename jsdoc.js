@@ -3,10 +3,6 @@ module.exports = {
   rules: {
     "jsdoc/check-alignment": "warn",
     "jsdoc/check-indentation": "warn",
-    "jsdoc/check-param-names": "warn",
-    "jsdoc/check-property-names": "warn",
-    "jsdoc/check-tag-names": "warn",
-    "jsdoc/check-values": "warn",
     "jsdoc/empty-tags": "warn",
     "jsdoc/multiline-blocks": "warn",
     "jsdoc/newline-after-description": "warn",
