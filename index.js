@@ -80,6 +80,7 @@ module.exports = {
         "unicorn/no-useless-undefined": "off",
         "unicorn/numeric-separators-style": "off",
         "unicorn/prefer-node-protocol": "off",
+        "unicorn/prefer-top-level-await": "off",
         "unicorn/prevent-abbreviations": "off",
         "unused-imports/no-unused-imports": "warn"
       },
@@ -123,6 +124,7 @@ module.exports = {
     "unicorn/no-useless-undefined": "off",
     "unicorn/numeric-separators-style": "off",
     "unicorn/prefer-node-protocol": "off",
+    "unicorn/prefer-top-level-await": "off",
     "unicorn/prevent-abbreviations": "off",
     "unused-imports/no-unused-imports": "warn"
   }
