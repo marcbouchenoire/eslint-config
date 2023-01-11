@@ -6,7 +6,6 @@
   "editor.formatOnSave": true,
   "eslint.validate": ["javascript"],
   "files.exclude": {
-    "node_modules": true,
-    "yarn.lock": true
+    "node_modules": true
   }
 }
