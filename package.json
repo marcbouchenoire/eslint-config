@@ -34,14 +34,17 @@
     }
   },
   "scripts": {
-    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "lint": "pnpm lint:eslint && pnpm lint:prettier",
     "lint:eslint": "eslint '**/*.js' --fix",
     "lint:prettier": "prettier '**/*.{js,json,md,yml}' --ignore-path .eslintignore --write --loglevel silent",
-    "release": "yarn login && np --no-tests"
+    "change": "pnpm changeset",
+    "version": "pnpm changeset version && pnpm install --no-frozen-lockfile",
+    "release": "pnpm publish"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.48.0",
-    "@typescript-eslint/parser": "^5.48.0",
+    "@changesets/cli": "^2.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
     "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
@@ -58,8 +61,7 @@
     "eslint": "^8.31.0",
     "husky": "4.3.8",
     "nano-staged": "^0.8.0",
-    "np": "^7.6.3",
-    "prettier": "^2.8.1"
+    "prettier": "^2.8.2"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
