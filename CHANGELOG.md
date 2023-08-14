@@ -4,4 +4,4 @@
 
 ### Major Changes
 
-- 321f24a: - Upgrade dependencies
+- 321f24a: Upgrade dependencies
