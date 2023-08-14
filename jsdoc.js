@@ -5,7 +5,6 @@ module.exports = {
     "jsdoc/check-indentation": "warn",
     "jsdoc/empty-tags": "warn",
     "jsdoc/multiline-blocks": "warn",
-    "jsdoc/newline-after-description": "warn",
     "jsdoc/no-multi-asterisks": "warn",
     "jsdoc/no-types": "warn",
     "jsdoc/require-description": "warn",

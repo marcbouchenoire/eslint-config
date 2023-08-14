@@ -52,7 +52,6 @@ module.exports = {
         ],
         "@typescript-eslint/prefer-nullish-coalescing": "warn",
         "@typescript-eslint/prefer-optional-chain": "warn",
-        "@typescript-eslint/sort-type-union-intersection-members": "warn",
         "@typescript-eslint/unified-signatures": "warn",
         "import/export": "error",
         "import/newline-after-import": "warn",
