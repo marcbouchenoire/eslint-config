@@ -7,14 +7,6 @@
 
 ## Installation
 
-#### Yarn
-
-```bash
-yarn add -D eslint @marcbouchenoire/eslint-config
-```
-
-#### npm
-
 ```bash
 npm install --save-dev eslint @marcbouchenoire/eslint-config
 ```
